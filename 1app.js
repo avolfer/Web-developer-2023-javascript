@@ -1,26 +1,10 @@
+var todolist = [
+    "clean room!",
+    "make a bed!",
+    "workout!",
+    "eat healthy!",
+];
 
-let user = {
-    username: "avolfer",
-    password: "1234kuba",
-};
-
-
-let database = [user]
-
-
-let newsfeed = [
-    {
-        username: "kryś",
-        timeline: 10,
-    }
-    ,
-    {
-        username: "statek",
-        timeline: 40,
-    }
-    ,
-    {
-        username: "kacper",
-        timeline: 90,
-    }
-]
+for (var i=0; i < todolist.length; i++) {
+    console.log(todolist[i]);
+}
