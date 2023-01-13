@@ -1,10 +1,5 @@
-var todolist = [
-    "clean room!",
-    "make a bed!",
-    "workout!",
-    "eat healthy!",
-];
-
-for (var i=0; i < todolist.length; i++) {
-    console.log(todolist[i] + "!");
-}
+var counterTwo = 10;
+do {
+    console.log(counterTwo);
+    counterTwo--;
+} while(counterTwo > 0);
