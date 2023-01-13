@@ -6,5 +6,5 @@ var todolist = [
 ];
 
 for (var i=0; i < todolist.length; i++) {
-    console.log(todolist[i]);
+    console.log(todolist[i] + "!");
 }
